@@ -1,0 +1,57 @@
+*, html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(159, 153, 146);
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Segoe UI", sans-serif;
+    color: #191919;
+    font-weight: 6s00;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    gap: 6px;
+}
+
+nav div img {
+    width: 50px;
+}
+
+.logo-title {
+    color: blue;
+    align-items: center;
+}
+
+.pulau {
+     width: 100%;
+  height: auto;
+  padding: 10px;
+  max-width: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
